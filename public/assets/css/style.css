@@ -1,0 +1,26 @@
+/* nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+} */
+
+li.nav-item ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+nav li:hover > ul {
+    display: block;
+}
